@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cool"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/first0num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="first number"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <EditText
+        android:id="@+id/sec0num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="second number"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/main0text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calculator"
+        android:textSize="65dp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/last0text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="total"
+        android:textSize="65dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="225dp"
+        android:layout_height="125dp"
+        android:width="1000dp"
+        android:text="calculte"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653"
+        tools:layout_editor_absoluteX="103dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
